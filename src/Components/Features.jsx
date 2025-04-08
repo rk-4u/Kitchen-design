@@ -45,9 +45,9 @@ function Features() {
           ].map((feature, index) => (
             <div
               key={index}
-              className="  bg-gray-900/5 backdrop-blur-sm rounded-xl overflow-hidden border border-white/10 shadow-md transition"
+              className=" hover:shadow-2xl hover:shadow-black/30 transition-shadow duration-300 bg-gray-900/5 backdrop-blur-sm rounded-xl overflow-hidden border border-white/10 shadow-md "
             >
-              <img src={feature.img} alt={feature.title} className="w-full h-48 object-cover" />
+              <img src={feature.img} alt={feature.title} className="w-full h-48 transition-transform duration-300 transform hover:scale-105 object-cover" />
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>
                 <p className="text-gray-300">{feature.desc}</p>

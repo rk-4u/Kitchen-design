@@ -13,28 +13,28 @@ function LatestNews() {
               desc: "Discover the latest kitchen design trends that are gaining popularity this year.",
               date: "March 15, 2025",
               readTime: "5 min read",
-              image: "/api/placeholder/400/250",
+              image: "https://i.pinimg.com/736x/f7/5d/12/f75d120fe1081e53e0193939ef2c5994.jpg",
             },
             {
               title: "How to Choose the Perfect Kitchen Materials",
               desc: "A guide to selecting durable and stylish materials for your kitchen renovation.",
               date: "February 28, 2025",
               readTime: "4 min read",
-              image: "/api/placeholder/400/250",
+              image: "https://i.pinimg.com/736x/7e/d4/e4/7ed4e446d1912966e78bc3ae8791512b.jpg",
             },
             {
               title: "Making the Most of Small Kitchen Spaces",
               desc: "Creative solutions to maximize functionality in compact kitchen layouts.",
               date: "February 10, 2025",
               readTime: "6 min read",
-              image: "/api/placeholder/400/250",
+              image: "https://i.pinimg.com/736x/0b/c9/73/0bc9734e1ad017cd54b287a8cdbafdb1.jpg",
             },
           ].map((item, i) => (
             <div
               key={i}
               className="bg-white/5 backdrop-blur-md border border-white/10 rounded-lg overflow-hidden shadow-md"
             >
-              <img src={item.image} alt={item.title} className="w-full h-48 object-cover" />
+              <img src={item.image} alt={item.title} className="w-full h-48  transition-transform duration-300 ease-in-out hover:scale-105 object-cover" />
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-3 text-white">{item.title}</h3>
                 <p className="text-gray-400 mb-4">{item.desc}</p>
