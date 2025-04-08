@@ -8,7 +8,7 @@ function Process() {
           {/* Image Section */}
           <div className="lg:w-1/2 mb-10 lg:mb-0">
             <img
-              src="/api/placeholder/600/400"
+              src="https://i.pinimg.com/736x/d8/0d/15/d80d15494d115130b6d6d75dd561f703.jpg"
               alt="Kitchen Design Process"
               className="rounded-lg w-full shadow-md"
             />
